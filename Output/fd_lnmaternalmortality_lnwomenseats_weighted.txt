@@ -1,0 +1,39 @@
+	(1)	(2)	(3)	(4)
+	FD With No Lags	FD With 4 Lags	FD With No Lags	FD With 4 Lags
+VARIABLES	FD Maternal Mortality ratio (%)	FD Natural Logarithm of Maternal Mortality ratio (%)	FD Natural Logarithm of Maternal Mortality ratio (%)	FD Natural Logarithm of Maternal Mortality ratio (%)
+				
+d_ln_women_seats	-0.007	-0.019	-0.008	-0.019
+	(0.008)	(0.010)	(0.007)	(0.010)
+	0.372	0.072	0.208	0.061
+L.d_ln_women_seats		-0.011		-0.013
+		(0.008)		(0.008)
+		0.155		0.094
+L2.d_ln_women_seats		-0.013		-0.016*
+		(0.007)		(0.008)
+		0.062		0.040
+L3.d_ln_women_seats		-0.014*		-0.017*
+		(0.006)		(0.006)
+		0.022		0.011
+L4.d_ln_women_seats		0.003		0.001
+		(0.006)		(0.006)
+		0.624		0.868
+d_ln_birth_rate_percentage			0.083	0.006
+			(0.102)	(0.124)
+			0.420	0.961
+d_ln_female_unemployment			-0.012	-0.011
+			(0.009)	(0.009)
+			0.198	0.247
+d_ln_gdp_per_capita			-0.300**	-0.277**
+			(0.091)	(0.103)
+			0.001	0.008
+d_ln_female_population			-0.240	-0.347
+			(0.339)	(0.369)
+			0.480	0.349
+Constant	-0.035**	-0.033**	-0.019	-0.017
+	(0.005)	(0.006)	(0.010)	(0.010)
+	0.000	0.000	0.055	0.088
+				
+Observations	2,461	1,854	2,460	1,854
+R-squared	0.001	0.008	0.064	0.062
+Robust standard errors in parentheses				
+** p<0.01, * p<0.05				

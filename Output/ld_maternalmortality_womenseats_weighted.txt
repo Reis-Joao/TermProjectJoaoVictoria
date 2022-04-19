@@ -1,0 +1,30 @@
+	(1)	(2)
+	Long Difference Model	Long Difference Model
+VARIABLES	LD Maternal Mortality ratio (%)	LD Maternal Mortality ratio (%)
+		
+ld_maternal_mortality_percentage	.	.
+	(.)	(.)
+	.	.
+ld_women_seats	-0.384	-0.183
+	(0.365)	(0.198)
+	0.295	0.358
+ld_birth_rate_percentage		15.516**
+		(3.720)
+		0.000
+ld_female_unemployment		0.267
+		(0.341)
+		0.436
+ld_ln_gdp_per_capita		-6.588*
+		(2.861)
+		0.023
+ld_ln_female_population		-49.383**
+		(9.034)
+		0.000
+Constant	-8.204	11.176**
+	(4.689)	(3.581)
+	0.082	0.002
+		
+Observations	2,664	2,646
+R-squared	0.044	0.611
+Robust standard errors in parentheses		
+** p<0.01, * p<0.05		
